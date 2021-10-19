@@ -1,0 +1,66 @@
+
+
+
+* {
+    box-sizing: border-box;
+    background-color: black;
+  }
+  header{
+    background-color: yellow;
+}
+div{
+    margin-bottom: 30px;
+}
+
+
+header h1{
+    color: white;
+}
+  
+  .columna {
+    float: left;
+    width: 50%;
+    display: grid;
+    align-items: center;
+    
+  }
+  .columna2 {
+    float: left;
+    display: grid;
+    align-items: center;
+
+ 
+    
+  }
+
+  .columna img{
+      margin-left: 20%;
+  }
+  
+
+  h2,h3{
+      text-align: center;
+      color: white;
+  }
+   .columna button{
+      margin-left: 45%;
+      margin-right: 45%;
+      padding: 10px;
+    background-color: tomato;
+  }
+  .columna2 button{
+    margin-left: 42%;
+    margin-right: 42%;
+    padding: 10px;
+  background-color: tomato;
+}
+
+
+ 
+  
+  
+  .fila::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
